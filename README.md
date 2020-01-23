@@ -1,8 +1,10 @@
 # my_health_interface
 
-cs125 project application
+cs125 project application 
 
 ## Getting Started
+
+main.dart is where it's at. testing 1 2 3.
 
 This project is a starting point for a Flutter application.
 
