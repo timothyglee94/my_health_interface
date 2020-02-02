@@ -17,3 +17,10 @@ For help getting started with Flutter, view our
 [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
 # my_health_interface
+
+
+Dependencies:
+
+[Flutter Background Geolocation](https://pub.dev/packages/flutter_background_geolocation)
+[FitKit](https://pub.dev/packages/fit_kit)
+

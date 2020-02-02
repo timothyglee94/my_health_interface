@@ -23,6 +23,10 @@ dependencies:
 
   fit_kit:
 
+  flutter_background_geolocation:
+    git:
+      url: https://github.com/transistorsoft/flutter_background_geolocation.git
+
    
 
   # The following adds the Cupertino Icons font to your application.
