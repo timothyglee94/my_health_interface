@@ -5,8 +5,8 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:health/health.dart';
 import 'package:english_words/english_words.dart';
+import 'package:fit_kit/fit_kit.dart';
 
 
 // main.dart
