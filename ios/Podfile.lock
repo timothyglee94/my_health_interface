@@ -1,21 +1,42 @@
 PODS:
+  - background_fetch (0.4.0):
+    - Flutter
+  - CocoaLumberjack (3.6.0):
+    - CocoaLumberjack/Core (= 3.6.0)
+  - CocoaLumberjack/Core (3.6.0)
+  - fit_kit (0.0.1):
+    - Flutter
   - Flutter (1.0.0)
-  - health (0.0.1):
+  - flutter_background_geolocation (1.6.1):
+    - CocoaLumberjack (~> 3.6.0)
     - Flutter
 
 DEPENDENCIES:
+  - background_fetch (from `.symlinks/plugins/background_fetch/ios`)
+  - fit_kit (from `.symlinks/plugins/fit_kit/ios`)
   - Flutter (from `Flutter`)
-  - health (from `.symlinks/plugins/health/ios`)
+  - flutter_background_geolocation (from `.symlinks/plugins/flutter_background_geolocation/ios`)
+
+SPEC REPOS:
+  trunk:
+    - CocoaLumberjack
 
 EXTERNAL SOURCES:
+  background_fetch:
+    :path: ".symlinks/plugins/background_fetch/ios"
+  fit_kit:
+    :path: ".symlinks/plugins/fit_kit/ios"
   Flutter:
     :path: Flutter
-  health:
-    :path: ".symlinks/plugins/health/ios"
+  flutter_background_geolocation:
+    :path: ".symlinks/plugins/flutter_background_geolocation/ios"
 
 SPEC CHECKSUMS:
+  background_fetch: 81de747c63e1ec3558e222af758c1b5fa2662c70
+  CocoaLumberjack: 78b0c238666f4f58db069738ec176f4519557516
+  fit_kit: 7643191161673bcd32863ae3f10baed6ce55c7c0
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  health: e7afe8d8adbe2d3bcac34aa894c42b0f24b3813b
+  flutter_background_geolocation: 8de6cb4584193c8e9bd6da1613b503f5d5ef65fc
 
 PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
 
