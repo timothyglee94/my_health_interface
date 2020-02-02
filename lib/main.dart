@@ -26,3 +26,16 @@ class MusicParty extends StatelessWidget {
     );
   }
 }
+
+
+void readAll() async {
+  if (await FitKit.requestPermissions(DataType.values)) {
+    for (DataType type in DataType.values) {
+      final results = await FitKit.read(
+        type,
+        dateFrom: DateTime.now().subtract(Duration(days: 5)),
+        dateTo: DateTime.now(),
+      );
+    }
+  }
+}
