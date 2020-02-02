@@ -7,6 +7,8 @@ import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:english_words/english_words.dart';
 import 'package:fit_kit/fit_kit.dart';
+import 'package:flutter_background_geolocation/flutter_background_geolocation.dart' as bg;
+
 
 
 // main.dart
